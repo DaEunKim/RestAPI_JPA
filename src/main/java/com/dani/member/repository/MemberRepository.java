@@ -4,6 +4,7 @@ import com.dani.member.model.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author : DaEunKim
@@ -13,4 +14,6 @@ import java.util.List;
  */
 public interface MemberRepository extends JpaRepository<Member, Long> {
 	List<Member> findByEmailContaining(String email);
+
+	Optional<Member> findByEmail(String email);
 }
