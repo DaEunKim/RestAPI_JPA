@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author : DaEunKim
  * @version : 2022/04/13
  * @fileName : com.dani.member.repository
- * @description :
+ * @description : 상품 repository
  */
 public interface GoodsRepository extends JpaRepository<Goods, Long> {
 

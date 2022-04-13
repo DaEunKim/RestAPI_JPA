@@ -10,7 +10,7 @@ import java.util.Optional;
  * @author : DaEunKim
  * @version : 2022/04/07
  * @fileName : com.dani.member.repository
- * @description :
+ * @description : 회원 repository
  */
 public interface MemberRepository extends JpaRepository<Member, Long> {
 	List<Member> findByEmailContaining(String email);

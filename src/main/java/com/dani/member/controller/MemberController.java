@@ -1,20 +1,13 @@
 package com.dani.member.controller;
 
-import com.dani.member.config.JwtProvider;
-import com.dani.member.model.Member;
-import com.dani.member.repository.MemberRepository;
 import com.dani.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author : DaEunKim

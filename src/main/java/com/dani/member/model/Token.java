@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @author : DaEunKim
  * @version : 2022/04/13
  * @fileName : com.dani.member.model
- * @description :
+ * @description : token
  */
 @Data
 @RedisHash
