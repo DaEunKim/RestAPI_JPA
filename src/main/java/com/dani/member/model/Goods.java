@@ -24,4 +24,5 @@ public class Goods {
 
 	@Column(name = "price")
 	private String price; // 상품 가격
+
 }
